@@ -19,14 +19,14 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
-    width: 700px;
+    height: 10%;
+    width: 50%;
     text-align: center;
     color: white;
-    margin: 10% auto;
+    margin: 50px auto;
 }
 h1{
-    font-size: 6rem;
+    font-size: 5rem;
     color: rgb(0, 0, 0, .8);
 }
 
