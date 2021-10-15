@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
-    background-image: url(bg.jpg);
+    background-image: url(bg.jpg); 
     background-repeat: repeat;
     background-size: cover;
-}
+}  
 
-h1{
-    font-family: 'Indie Flower', cursive;
+#wish-massage{
+    display: none;
+    justify-content: center;
+    margin: auto auto;
 }
 
 .main-div{
@@ -30,7 +32,12 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     font-size: 70px;
+    font-family: 'Italianno', cursive;
     color: rgb(0, 0, 0, .8);
+}
+
+.red{
+    color: tomato;
 }
 
 .coundown{
@@ -39,6 +46,7 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     color: white;
+    font-family: 'Courgette', cursive;
 }
 
 .coundown div{
@@ -48,7 +56,7 @@ h1{
     margin: 10px;
     font-size: 2rem;
 }
- span{
+ .span{
      font-size: 1rem;
  }
 
