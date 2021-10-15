@@ -1,4 +1,4 @@
-console.log('hello');
+console.dir('hello');
 const bDay = "16 October 2021" ;
 
 //function coundown(){

@@ -23,16 +23,20 @@ h1{
     width: 50%;
     text-align: center;
     color: white;
-    margin: 50px auto;
+    margin: 10% auto;
 }
 h1{
-    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 70px;
     color: rgb(0, 0, 0, .8);
 }
 
 .coundown{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     color: white;
 }
