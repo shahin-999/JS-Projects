@@ -12,13 +12,35 @@ body{
 }  
 
 #wish-massage{
-    display: none;
+    display: flex;
     justify-content: center;
-    margin: auto auto;
+    margin: 15% auto;
+    flex-wrap: wrap;
 }
 
+.textDiv{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 60%;
+    color: rgb(255, 255, 255, .6);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    border-radius: 10px;
+    font-family: 'Courgette', cursive;
+}
+
+
+
+#wish-massage div h1{
+    color: rgb(255, 255, 255, .6);
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+        
+} 
+
 .main-div{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     height: 10%;
