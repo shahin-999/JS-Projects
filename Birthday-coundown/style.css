@@ -12,7 +12,7 @@ body{
 }  
 
 #wish-massage{
-    display: flex;
+    display: none;
     justify-content: center;
     margin: 15% auto;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@ body{
 } 
 
 .main-div{
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     height: 10%;
@@ -77,6 +77,7 @@ h1{
     background-color: rgb(0, 0, 0, .5);
     margin: 10px;
     font-size: 2rem;
+    border-radius: 10px;
 }
  .span{
      font-size: 1rem;
