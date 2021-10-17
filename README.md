@@ -5,4 +5,4 @@ In this repository I added some mini JavaScript projects.
 
 2. Birthday coundown: https://shahin-999.github.io/JS-Projects/Birthday-coundown
 
-3. Birthday coundown: https://shahin-999.github.io/JS-Projects/Address-book
+3. Address-book: https://shahin-999.github.io/JS-Projects/Address-book
