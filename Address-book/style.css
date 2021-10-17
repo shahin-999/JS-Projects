@@ -1,0 +1,120 @@
+/* address book */
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+body{
+    font-family: 'Saira Condensed', sans-serif;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.logo img{
+    height: 99pt;
+    width: 77pt;
+}
+
+.logo span{
+    color: #BB8FCE;
+}
+
+
+.logo h1{
+    font-size: 3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+label{
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+input{
+    padding: 9px;
+    font-size: 1.5rem;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 10px;
+    border: 2px solid #BB8FCE;
+    border-width: 85%;
+}
+
+input:focus{
+    outline: none;
+    background-color: #bb8fce36;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 15px 0;
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: #BB8FCE;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid #BB8FCE;
+    background-color: white;
+    color: #BB8FCE;
+}
+
+.border{
+    border-top: 4px solid #BB8FCE;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+} 
+
+tr{
+    height: 15px;
+    font-size: 1.2rem;
+}
+tr:nth-child(odd){
+    background-color: rgb(0, 0, 0, .1);
+}
+#caption{
+    font-size: 2rem;
+    color: #BB8FCE;
+}
+
