@@ -23,13 +23,13 @@
         <div class="form">
             <form>
                 <label>Name</label>
-                <input type="text" placeholder="Person Name">
+                <input type="text" placeholder="Person Name" id="name" required>
                 <label>Address</label>
-                <input type="text" placeholder="Address">
+                <input type="text" placeholder="Address" id="address" required>
                 <label>Phone Number</label>
-                <input type="text" placeholder="Phone No">
+                <input type="tel" placeholder="Phone No" id="phone-number" required>
                 <div class="button">
-                    <button>Add</button>
+                    <button id="btn-add">Add</button>
                 </div>
             </form>
         </div>
@@ -37,7 +37,7 @@
     <!-- table -->
         <div class="table">
             <h1 id="caption">Address List</h1>
-            <table>
+            <table id="table">
                 <tr style="background-color: #BB8FCE; color: white;">
                     <th>Name</th>
                     <th>Address</th>
@@ -49,32 +49,11 @@
                     <td>Chuadanga</td>
                     <td>8273692154</td>
                 </tr>
-
-                <tr>
-                    <td>Rabby</td>
-                    <td>Chuadanga</td>
-                    <td>8273692154</td>
-                </tr>
-
-                <tr>
-                    <td>Rabby</td>
-                    <td>Chuadanga</td>
-                    <td>8273692154</td>
-                </tr>
-
-                <tr>
-                    <td>Rabby</td>
-                    <td>Chuadanga</td>
-                    <td>8273692154</td>
-                </tr>
-
-                <tr>
-                    <td>Rabby</td>
-                    <td>Chuadanga</td>
-                    <td>8273692154</td>
-                </tr>
             </table>
         </div>
     </div>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
