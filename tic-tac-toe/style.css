@@ -1,0 +1,80 @@
+/* Tik Tac Toe */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+body{
+    background: rgb(76,185,196);
+    background: linear-gradient(264deg, rgb(71, 194, 207) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.heading-main-div{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.514);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.heading img{
+    height: 45px;
+    width: 45px;
+}
+.heading h1{
+    margin: 0;
+    font-size: 40px;
+    color: #F39C12;
+    margin-left: 15px;
+}
+
+#game-status{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 4rem;
+}
+span{
+    color: tomato;
+}
+
+.game-container{
+    display: flex;
+    justify-content: center;
+}
+
+.game-box{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    text-align: center;
+}
+
+.box{
+    border: 1.5px solid rgb(76,185,196);
+    cursor: pointer;
+}
+
+.box-item{
+    color: white;
+    font-size: 5.5vw;
+}
+
+.bt-0{
+    border-top: 0;    
+}
+.bl-0{
+    border-left: 0;    
+}
+.br-0{
+    border-right: 0;    
+}
+.bb-0{
+    border-bottom: 0;    
+}
