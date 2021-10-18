@@ -61,10 +61,16 @@ span{
     cursor: pointer;
 }
 
+.box:hover{
+    background-color: rgba(76, 184, 196, 0.418);
+}
+
 .box-item{
     color: white;
-    font-size: 5.5vw;
+    font-size: 8vw;
 }
+
+
 
 .bt-0{
     border-top: 0;    
