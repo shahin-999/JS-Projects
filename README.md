@@ -8,4 +8,4 @@ In this repository I added some mini JavaScript projects.
 3. Address-book: https://shahin-999.github.io/JS-Projects/Address-book
 
 Game:
-1. tic tac toe : https://shahin-999.github.io/JS-Projects/tic-tac-toe
+1. tic tac toe : https://shahin-999.github.io/JS-Projects/Squid-Game
