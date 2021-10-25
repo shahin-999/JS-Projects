@@ -1,0 +1,132 @@
+/*bank transection*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background: #343738;  /* fallback for old browsers */
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.div-1{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.342);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-title{
+    color: white;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+input:focus{
+    outline: none;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #58D68D;
+    margin-top: 5px;
+}
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.bank-main-div{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto; 
+    color: white;  
+}
+
+.info-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.withdraw, .diposit, .balance{
+    height: 120px;
+    width: 250px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.withdraw{
+    background-color:#E74C3C;
+}
+.diposit{ 
+    background-color: #16A085;  
+}
+.balance{
+    background-color: #9B59B6; 
+}
+
+.bank-input-label{
+    margin-left: 10px;
+}
+
+
+.bank-input{
+    background-color: rgba(255, 255, 255, 0.342);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 140px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.diposit-btn, .withdraw-btn{
+    float: right;
+    margin-right: 10px;
+}
+.diposit-btn{
+    background-color: #16A085;
+}
+.withdraw-btn{
+    background-color: #E74C3C;
+}

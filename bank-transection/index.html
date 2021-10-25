@@ -1,0 +1,68 @@
+<!-- bank transection -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title id="title">Login</title>
+</head>
+<body>
+    <!-- login part -->
+    <div class="div-1" id="div-1">
+        <div id="login">
+            <h1 class="login-title">Login</h1>    
+            <form action="">
+                <input type="text" id="user" placeholder="User Name" value="" required>
+                <input type="text" id="password" placeholder="Password" value="" required> 
+                <button id="login-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- banking part -->
+
+    <div class="bank-main-div" id="bank-main-div">
+        <!-- diposit, withdraw & total amount section -->
+        <h1>Bank of No Security</h1>
+        <p>Your money not safe here</p>
+        <div class="info-div">
+            <!-- diposit info -->
+            <div class="diposit">
+                <h1>Diposit</h1>
+                <h3>৳ <span id="diposit-amount">1200</span> </h3>
+            </div>
+            <!-- withdraw info -->
+            <div class="withdraw">
+                <h1>Withdraw</h1>
+                <h3>৳ <span id="withdraw-amount">50</span></h3>
+            </div>
+            <!-- balance info -->
+            <div class="balance">
+                <h1>Balance</h1>
+                <h3>৳ <span id="balance-amount">1150</span></h4>
+            </div>
+        </div>
+<!-- diposit & withdraw input section  -->
+        <div class="input-div">
+            <!-- diposite money-->
+            <div class="bank-input">
+                <h3 class="bank-input-label">Diposit</h4>
+                <input type="number" id="dipositAmount" placeholder="৳ Diposit here"> <br>
+                <button class="diposit-btn" id="diposit-btn">Diposit</button>
+            </div>
+            <!-- withdraw money -->
+            <div class="bank-input">
+                <h3 class="bank-input-label">Withdraw</h4>
+                <input type="number" id="withdrawAmount" placeholder="৳ Withdraw here"> <br>
+                <button class="withdraw-btn" id="withdraw-btn">Withdraw</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

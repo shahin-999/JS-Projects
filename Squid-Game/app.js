@@ -1,7 +1,8 @@
 // Tik Tac Toe
 var gameSound = new Audio("game.mp3");
+var clickSound = new Audio("click.mp3");
 var gameTurn = "X";
-gameSound.play();
+//gameSound.play();
 
 //returning and changing game turn
 changeTurn = ()=>{
@@ -19,6 +20,7 @@ Array.from(boxes).forEach(item=>{
     item.addEventListener("click",()=>{
         if(boxText.innerText == ''){
             boxText.innerText = gameTurn;
+            clickSound.play();
             gameTurn = changeTurn();   
             document.querySelector("#turn-status").innerText = gameTurn;
         }
