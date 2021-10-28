@@ -1,0 +1,35 @@
+<!-- String Machine -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>String Machine</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1 style="font-size: 2.5rem; padding: 10px; color: rgba(255, 99, 71, 0.911);">String Machine</h1>
+<!-- result -->
+        <div class="result-div">
+            <div class="result-sub-div">
+                <h3>Characters</h3>
+                <p id="letter">0</p>
+            </div>
+            <div class="result-sub-div">
+                <h3>Words</h3>
+                <p id="word">0</p>
+            </div>
+        </div><!-- result end-->
+
+        <div class="textarea-div">
+            <textarea id="textarea"  name="textarea" cols="70" rows="10" placeholder="Enter your text here. We count it."></textarea>            
+            <button class="clear-btn" id="clearBtn">Clear</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

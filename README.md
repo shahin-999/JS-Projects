@@ -9,5 +9,8 @@ In this repository I added some mini JavaScript projects.
 
 4. Bank-transection: https://shahin-999.github.io/JS-Projects/bank-transection
 
+5. Word-count-machine: https://shahin-999.github.io/JS-Projects/string-machine
+
+
 Game:
 1. tic tac toe : https://shahin-999.github.io/JS-Projects/Squid-Game

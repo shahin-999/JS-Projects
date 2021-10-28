@@ -1,0 +1,99 @@
+/* String Machine */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #58D68D;
+}
+
+@media screen and (max-width: 850px) {
+    #textarea{
+        width: 85%;
+        height: 200px;
+    }
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    color: #273746;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.textarea-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.result-sub-div{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(255, 255, 255, 0.274);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;   
+    margin: 5px;
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.clear-btn{
+    margin-left: 10px;
+    width: 90px;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(255, 99, 71, 0.801);
+}
+.clear-btn:hover{
+    border: 2px solid tomato;
+    background-color: white;
+    color: tomato;
+}
+.clear-btn:focus{
+    background-color: #99A3A4;
+}
+#textarea{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(255, 255, 255, 0.274);
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+textarea:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+textarea:focus{
+    cursor: text;
+    outline: none;
+}
+
+p{
+    text-align: center;
+    color: #273746;
+    font-size: 2rem;
+}
