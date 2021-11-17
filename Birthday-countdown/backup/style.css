@@ -5,16 +5,16 @@
     margin: 0;
 }
 
-/* body{    
-    background: #74ebd5; 
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  
-    background: linear-gradient(to right, #ACB6E5, #74ebd5); 
-}   
-*/
+body{    
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
 
 #wish-massage{
     display: none;
     justify-content: center;
+    margin: 15% auto;
     flex-wrap: wrap;
 }
 
@@ -32,8 +32,14 @@
 
 
 
-.main-div{
+#wish-massage div h1{
+    color: rgb(255, 255, 255, .6);
     font-family: 'Courgette', cursive;
+    font-size: 3rem;
+        
+} 
+
+.main-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +58,10 @@ h1{
     color: rgb(0, 0, 0, .8);
 }
 
+.red{
+    color: tomato;
+}
+
 .coundown{
     display: flex;
     flex-direction: row;
@@ -64,7 +74,7 @@ h1{
 .coundown div{
     height: 90px;
     width: 90px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(0, 0, 0, .5);
     margin: 10px;
     font-size: 2rem;
     border-radius: 10px;
