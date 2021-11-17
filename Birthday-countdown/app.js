@@ -1,4 +1,4 @@
-const bDay = "8 November 2021" ;
+const bDay = "18 November 2021" ;
 
 function coundown(){
     const birthday = new Date(bDay);
